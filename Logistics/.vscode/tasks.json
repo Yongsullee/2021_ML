@@ -1,0 +1,95 @@
+{
+	"version": "2.0.0",
+	"tasks": [
+		{
+			"type": "cppbuild",
+			"label": "C/C++: gcc.exe 활성 파일 빌드",
+			"command": "C:\\MinGW\\bin\\gcc.exe",
+			"args": [
+				"-fdiagnostics-color=always",
+				"-g",
+				"${file}",
+				"-o",
+				"${fileDirname}\\${fileBasenameNoExtension}.exe"
+			],
+			"options": {
+				"cwd": "C:\\MinGW\\bin"
+			},
+			"problemMatcher": [
+				"$gcc"
+			],
+			"group": "build",
+			"detail": "컴파일러: C:\\MinGW\\bin\\gcc.exe"
+		},
+		{
+			"type": "shell",
+			"id": "shell,make execute --file=c:\\Users\\u\\.vscode\\extensions\\franneck94.c-cpp-runner-1.5.4\\templates\\Makefile --directory=FILE_DIR --quiet COMPILATION_MODE=Debug EXECUTABLE_NAME=outDebug.exe LANGUAGE_MODE=C,",
+			"problemMatcher": [
+				"$gcc"
+			],
+			"label": "C_Cpp_Runner: Run: Logistics"
+		},
+		{
+			"type": "shell",
+			"id": "shell,make build --file=c:\\Users\\u\\.vscode\\extensions\\franneck94.c-cpp-runner-1.5.4\\templates\\Makefile --directory=FILE_DIR COMPILATION_MODE=Debug EXECUTABLE_NAME=outDebug.exe LANGUAGE_MODE=C C_COMPILER=gcc ENABLE_WARNINGS=1 WARNINGS_AS_ERRORS=0 WARNINGS=\"-Wall -Wextra -Wpedantic\",",
+			"problemMatcher": [
+				"$gcc"
+			],
+			"label": "C_Cpp_Runner: Build: Logistics"
+		},
+		{
+			"type": "shell",
+			"id": "shell,C:/MinGW/bin/make.exe execute --file=c:\\Users\\u\\.vscode\\extensions\\franneck94.c-cpp-runner-1.5.5\\templates\\Makefile --directory=FILE_DIR --quiet COMPILATION_MODE=Debug EXECUTABLE_NAME=outDebug.exe LANGUAGE_MODE=C,",
+			"problemMatcher": [
+				"$gcc"
+			],
+			"label": "C_Cpp_Runner: Run: Logistics"
+		},
+		{
+			"type": "cppbuild",
+			"label": "C/C++: gcc.exe 활성 파일 빌드",
+			"command": "C:/MinGW/bin/gcc.exe",
+			"args": [
+				"-fdiagnostics-color=always",
+				"-g",
+				"${file}",
+				"-o",
+				"${fileDirname}\\${fileBasenameNoExtension}.exe",
+				"-Wall",
+				"-Wextra",
+				"-Wpedantic"
+			],
+			"options": {
+				"cwd": "C:/MinGW/bin"
+			},
+			"problemMatcher": [
+				"$gcc"
+			],
+			"group": "build",
+			"detail": "컴파일러: C:/MinGW/bin/gcc.exe"
+		},
+		{
+			"type": "cppbuild",
+			"label": "C/C++: g++.exe 활성 파일 빌드",
+			"command": "C:/mingw64/bin/g++.exe",
+			"args": [
+				"-fdiagnostics-color=always",
+				"-g",
+				"${file}",
+				"-o",
+				"${fileDirname}\\${fileBasenameNoExtension}.exe",
+				"-Wall",
+				"-Wextra",
+				"-Wpedantic"
+			],
+			"options": {
+				"cwd": "C:/mingw64/bin"
+			},
+			"problemMatcher": [
+				"$gcc"
+			],
+			"group": "build",
+			"detail": "컴파일러: C:/mingw64/bin/g++.exe"
+		}
+	]
+}
