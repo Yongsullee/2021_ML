@@ -5,14 +5,16 @@
       "name": "C/C++ Runner: Debug Session",
       "type": "cppdbg",
       "request": "launch",
-      "args": [],
+      "args": [
+        ""
+      ],
       "stopAtEntry": false,
-      "cwd": "c:\\Users\\u\\Desktop\\2021_DKU_ML\\NeuralNetwork",
+      "cwd": "c:/ML/2021_ML/NeuralNetwork",
       "environment": [],
-      "program": "c:\\Users\\u\\Desktop\\2021_DKU_ML\\NeuralNetwork\\build\\Debug\\outDebug",
+      "program": "c:/ML/2021_ML/NeuralNetwork/build/Debug/outDebug",
       "internalConsoleOptions": "openOnSessionStart",
       "MIMode": "gdb",
-      "miDebuggerPath": "C:/mingw64/bin/gdb.exe",
+      "miDebuggerPath": "C:/MinGW/bin/gdb.exe",
       "externalConsole": false,
       "setupCommands": [
         {
